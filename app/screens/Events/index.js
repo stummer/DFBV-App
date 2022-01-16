@@ -1,9 +1,8 @@
 import React from "react";
 import { ScrollView, Text } from "react-native";
 
-import URL from "../constants/apiUrls";
-import RssApi from "../api/RssApi";
-//var RssApi = require("../api/RssApi");
+import URL from "../../constants/apiUrls";
+import RssApi from "../../api/RssApi";
 
 export default class Events extends React.Component {
   constructor(props) {

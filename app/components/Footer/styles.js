@@ -8,11 +8,10 @@ const styles = StyleSheet.create({
     borderColor: "#cccccc",
   },
   footer_button: {
-    marginVertical: 0,
-    marginHorizontal: 3,
     padding: 6,
     flexDirection: "column",
     alignItems: "center",
+    flex: 1,
   },
   footer_text: {
     marginTop: 1,

@@ -13,7 +13,7 @@ export default class Screen extends Component {
     return (
       <View style={styles.screen}>
         <Header title={this.props.title} />
-        <View style={styles.body}>{this.props.page}</View>
+        {this.props.page}
       </View>
     );
   }
